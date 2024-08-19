@@ -11,26 +11,30 @@ body{
 }
 .box-container{
     border: 1px solid whitesmoke;
-    height: 380px;
-    width: 250px;
+    height: 360px;
+    width: 260px;
     border-radius: 15px;
     background-color: white;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .blue-box{
     border: 1px solid rgb(41, 154, 207);
-    background-color:rgb(41, 154, 207);
+    background-color:rgb(96, 24, 203);
     height:200px;
     width:220px;
     border-radius: 15px;
-    margin: 1%;
+    margin: 5px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items:start;
+    justify-content:flex-start ;
 }
 .image-content img{
-    height: 100px;
-    width: 100px;
-    display: flex;
+     height: 100px; 
+     width: 100px; 
+     display: flex; 
     align-items: center;
     justify-content: center;
 }
@@ -44,8 +48,11 @@ body{
 .heading-container{
     font-size: 10px;
     margin:4%;
+    text-align: center;
 }
 .paragraph-container{
-    font-size:19px;
+    font-size:14px;
     margin:4%;
+    text-align: center;
+    letter-spacing: 1px;
 }
